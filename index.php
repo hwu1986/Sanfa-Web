@@ -105,9 +105,9 @@ The founder of this company is Mr. Hsi-Fa Wu. The company’s current location is 
 	<div class="clear"></div>
 	
 	<div class="footer center">
-	<a href="images/sanfa_logo.jpg"><img src="images/sanfa_logo.jpg" width="72" height="72" alt="" /></a>
+
 		Copyright © 2012 San-Fa Inc. All rights reserved.<br>
-		Website designed and operated by: <a href="http://www.exdreamstudio.com">eXDream Inc</a>.
+		<a href="http://www.exdreamstudio.com">eXDream Inc</a>.
 	</div>
 </body>
 </html>

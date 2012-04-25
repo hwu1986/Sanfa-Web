@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Verdana;
+	font-size: 13px;	
+}
+
+.border {
+	border-color: black;
+	border-width: 5px;
+	border-style: dotted;
+	border-radius:15px;
+}
+
+.hidden {
+	display: none;
+}
+
+.clear {
+	clear: both;	
+	height: 30px;
+}
+
+.button {
+	background-color: orange;  
+    border-style: solid;   width: 100px; height: 30px; 
+    border-color: red;
+    padding: 5px;
+    margin: 5px;
+    border-width: 3px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.nav ul {
+    margin: 0 auto;
+    padding: 0;
+    height: 35px;
+    width: 585px;
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+    padding: 3px 10px 3px 10px;
+    margin: 5px;
+    border: 1px solid #CCC;
+    background: #D0D0D0;
+	border-radius: 10px;
+	width: 85px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.nav li:hover {
+	background: gray;	
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	width: 625px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-content {
+	padding: 3px;
+}
+
+.text {
+	padding-top: 0px;	
+	padding-bottom: 2px;
+	padding-left: 20px;
+	padding-right:20px;
+}
+
+.footer {
+	width: 340px;
+	color: gray;
+	font-style: italic;
+}
+
+.contact-form input {
+	border-style: solid;
+	border-color: gray;
+	border-radius: 5px;
+	border-width: 2px;
+	height: 25px;
+	font-size: 15px
+}
+
+.action input:hover {
+	background: gray;
+}
+
+.contact-form textarea {
+	width: 300px;
+	height: 200px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 5px;
+	border-width: 2px;
+	font-size: 15px;
+}
+
+.contact-form select {
+	font-size: 30px;
+}
+
+.contact-form td {
+	width: 125px;
+}
+
+.contact-form table {
+	margin-left: 50px;
+}
+
+.contact-form {
+	padding-bottom: 15px;
+}
+
+#loading {
+	height: 400px;
+}
+
+#loading img {
+	top: 100px;
+	position: relative;
+}

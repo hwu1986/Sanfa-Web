@@ -42,6 +42,19 @@
 			</div>
 			<div id="id_services" class="text hidden">
 				<p><h2>Services >></h2></p>
+				<div id="gallery" class="product">
+					<ul>
+						<li><a class="lightbox" href="images/products/constructions/pdt-cements1.jpg"><img src="images/products/constructions/pdt-cements1.jpg"/></a></li>
+						<li><a class="lightbox" href="images/products/constructions/pdt-cements1.jpg"><img src="images/products/constructions/pdt-cements1.jpg"/></a></li>
+						<li><a class="lightbox" href="images/products/constructions/pdt-cements1.jpg"><img src="images/products/constructions/pdt-cements1.jpg"/></a></li>
+						<li><a class="lightbox" href="images/products/constructions/pdt-cements1.jpg"><img src="images/products/constructions/pdt-cements1.jpg"/></a></li>
+						<li><a class="lightbox" href="images/products/constructions/pdt-cements1.jpg"><img src="images/products/constructions/pdt-cements1.jpg"/></a></li>
+						<li><a class="lightbox" href="images/products/constructions/pdt-cements1.jpg"><img src="images/products/constructions/pdt-cements1.jpg"/></a></li>
+						<li><a class="lightbox" href="images/products/constructions/pdt-cements1.jpg"><img src="images/products/constructions/pdt-cements1.jpg"/></a></li>
+						<li><a class="lightbox" href="images/products/constructions/pdt-cements1.jpg"><img src="images/products/constructions/pdt-cements1.jpg"/></a></li>
+						<li><a class="lightbox" href="images/products/constructions/pdt-cements1.jpg"><img src="images/products/constructions/pdt-cements1.jpg"/></a></li>
+					</ul>
+				</div>
 			</div>
 			<div id="id_sales" class="text hidden">
 				<p><h2>Sales >></h2></p>
@@ -105,9 +118,8 @@ The founder of this company is Mr. Hsi-Fa Wu. The company’s current location is 
 	<div class="clear"></div>
 	
 	<div class="footer center">
-
-		Copyright © 2012 San-Fa Inc. All rights reserved.<br>
-		<a href="http://www.exdreamstudio.com">eXDream Inc</a>.
+		<center>Copyright © 2012 San-Fa Inc. All rights reserved.<br>
+		Written by: <a href="http://www.exdreamstudio.com">eXDream Inc</a>.</center>
 	</div>
 </body>
 </html>

@@ -136,3 +136,19 @@ a:link {
 	top: 100px;
 	position: relative;
 }
+
+#gallery {
+	height:325px;
+	width: 500px;
+}
+
+#gallery img {
+	width: 138px;
+	height: 90px;
+}
+
+#gallery li {
+	list-style: none;
+	float: right;
+	padding: 5px;
+}

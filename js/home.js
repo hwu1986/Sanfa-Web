@@ -36,11 +36,11 @@ $(document).ready(function() {
 		showContent($(this));
 	});
 	
-	$('#services').bind('click', function() {
+	$('#products').bind('click', function() {
 		showContent($(this));
 	});
 	
-	$('#sales').bind('click', function() {
+	$('#promotions').bind('click', function() {
 		showContent($(this));
 	});
 	
@@ -58,8 +58,8 @@ $(document).ready(function() {
 		
 		var id = item.attr('id');
 		$('#id_home').hide();
-		$('#id_services').hide();
-		$('#id_sales').hide();
+		$('#id_products').hide();
+		$('#id_promotions').hide();
 		$('#id_aboutus').hide();
 		$('#id_contactus').hide();
 		$('#id_'+id).fadeIn(500);

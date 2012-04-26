@@ -137,18 +137,29 @@ a:link {
 	position: relative;
 }
 
-#gallery {
-	height:325px;
+#id_gallery {
+	height: 400px;
 	width: 500px;
 }
 
-#gallery img {
+#id_gallery img {
 	width: 138px;
 	height: 90px;
 }
 
-#gallery li {
-	list-style: none;
-	float: right;
-	padding: 5px;
+#id_gallery td {
+	margin-left: auto;
+	maring-right: auto;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+}
+
+.product {
+	width: 500px;
+	height: 410px;
+}
+
+#id_products {
+	height: 650px;
 }

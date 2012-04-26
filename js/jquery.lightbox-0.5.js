@@ -165,7 +165,8 @@
 				var arrPageScroll = ___getPageScroll();
 				// Calculate top and left offset for the jquery-lightbox div object and show it
 				$('#jquery-lightbox').css({
-					top:	arrPageScroll[1] + (arrPageSizes[3] / 10),
+					//top:	arrPageScroll[1] + (arrPageSizes[3] / 10),
+					top: '200px',
 					left:	arrPageScroll[0]
 				});
 			});

@@ -97,7 +97,8 @@
 				</div>
 			</div>
 			<div id="id_promotions" class="text hidden">
-				<p><h2>Sales >></h2></p>
+				<p><h2>Promotions >></h2></p>
+				<p>No promotion at this time. Please check back later. </p>
 			</div>
 			<div id="id_aboutus" class="text hidden">
 				<p><h2>About Us >></h2></p>
@@ -115,12 +116,14 @@
 					
 						<table id="form-table" class="center">
 							<tr>
-								<td>Name/Company:</td>
-								<td><input type="text" id="name" style="width:200px;"></td>
+								<td>Name/Company: *</td>
+								<td><input type="text" id="name" class=
+									"required" style="width:200px;"></td>
 							</tr>
 							<tr>
-								<td>Email:</td>
-								<td><input type="text" id="email" style="width:200px"></td>
+								<td>Email: *</td>
+								<td><input type="text" id="email" class=
+									"required"style="width:200px"></td>
 							</tr>
 							<tr>
 								<td>Inquiry Type:</td>
@@ -132,8 +135,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td style="vertical-align: text-top;">Comments:</td>
-								<td><textarea id="comment"></textarea></td>
+								<td style="vertical-align: text-top;">Comments: *</td>
+								<td><textarea id="comment" class="required"></textarea></td>
 							</tr>
 							<tr>
 								<td></td>

@@ -163,3 +163,10 @@ a:link {
 #id_products {
 	height: 650px;
 }
+
+#contact-error {
+    background-color: red;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 10px;
+}

@@ -26,8 +26,8 @@ if ($_POST) {
 	$headers .= 'From: San-Fa Web <noreply@sanfa.bz>' . "\r\n";
 	
 	if (mail($to, $subject, $message, $headers)) {
-		echo json_encode(array('success' => 1));
+		echo json_encode(array('success' => 'true'));
 	} else {
-		echo json_encode(array('success' => 0));
+		echo json_encode(array('success' => 'false'));
 	} 
 }

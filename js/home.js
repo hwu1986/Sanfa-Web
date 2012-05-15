@@ -21,17 +21,10 @@ $(document).ready(function() {
 				data: postString,
 				dataType: "JSON",
 				success: function(data) {
-					if (data.success == 1) {
-						$('#id_contactus').text('');
-						$('#loading').hide(3000);
-						$('#id_contactus').append('<center><div id="contact-message"><h3>We have received your information and we will contact you shortly.</h3></div></center>');
-						$('input[type="reset"]').click();
-						$('#id_contactus').fadeIn(3000);
-					} else {
-						$('#loading').hide(3000);
-						$('#id_contactus').prepend('<center><div id="contact-message"><h3>We have encountered some error, please try again later.</h3></div></center>');
-						$('#id_contactus').fadeIn();
-					}
+					$('#id_contactus').text('');
+					$('#loading').hide(3000);
+					$('#id_contactus').append('<center><div id="contact-message"><h3>We have received your information and we will contact you shortly.</h3></div></center>');
+					$('#id_contactus').fadeIn(3000);	
 				}
 			});
 		} 

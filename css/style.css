@@ -89,7 +89,16 @@ a:link {
 	font-style: italic;
 }
 
-.contact-form input {
+.contact-form  input {
+	border-style: solid;
+	border-color: gray;
+	border-radius: 5px;
+	border-width: 2px;
+	height: 25px;
+	font-size: 15px
+}
+
+.mailing-form  input {
 	border-style: solid;
 	border-color: gray;
 	border-radius: 5px;
@@ -100,6 +109,10 @@ a:link {
 
 .action input:hover {
 	background: gray;
+}
+
+.action {
+	padding-top:10px;
 }
 
 .contact-form textarea {
@@ -113,7 +126,7 @@ a:link {
 }
 
 .contact-form select {
-	font-size: 30px;
+	font-size: 15px;
 }
 
 .contact-form td {
@@ -125,6 +138,10 @@ a:link {
 }
 
 .contact-form {
+	padding-bottom: 15px;
+}
+
+.mailing-form {
 	padding-bottom: 15px;
 }
 

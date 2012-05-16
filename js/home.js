@@ -2,12 +2,12 @@ $(document).ready(function() {
 	
 	$('#contact-form').submit(function(e){
 		e.preventDefault();
-		$('#id_contactus').fadeOut();
-		$('#loading').fadeIn();
-
 		var errors = validateContactForm();
 
 		if (!errors) {
+			$('#id_contactus').fadeOut();
+			$('#loading').fadeIn();
+
 			var name = $('#name').val();
 			var email = $('#email').val();
 			var type = $('#type').val();
@@ -28,6 +28,34 @@ $(document).ready(function() {
 				}
 			});
 		} 
+	});
+
+	$('#mailing-form').submit(function(e) {
+		e.preventDefault();
+		var errors = validateMailingForm();
+
+		if (!errors) {
+			$('#id_promotions').fadeOut();
+			$('#loading').fadeIn();
+
+			var email = $('#mailing_email').val();
+			var action = 'subscribe';
+
+			var postString = 'email='+email+'action='+action;
+
+			$.ajax({
+				type: "POST",
+				url: "post/mailing-list.php",
+				data: postString,
+				dataType: "JSON",
+				success: function(data) {
+
+					$('#loading').hide(3000);
+					$('#id_promotions').append('<center><div id="contact-message"><h3>We have received your information and we will contact you shortly.</h3></div></center>');
+					$('#id_promotions').fadeIn(3000);	
+				}
+			});
+		}
 	});
 	
 	$('#home').bind('click', function() {
@@ -84,5 +112,17 @@ $(document).ready(function() {
 		}
 
 		return error;
+	}
+
+	function validateMailingForm () {
+		var error = false;
+		var errorMsg = '';
+		$('.required').each(function () {
+			if ($(this).val() == '') {
+				error = true;
+				errorMsg += '<li>' + $(this).attr('id') + ' is blank.</li>';
+			}
+		});
+
 	}
 });

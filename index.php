@@ -40,7 +40,7 @@
 				
 			</div>
 			<div id="id_products" class="text hidden">
-				<p><h2>Services >></h2></p>
+				<p><h2>Products >></h2></p>
 				<div class="product center">			
 					<table id="id_gallery">
 						<tr>
@@ -99,6 +99,17 @@
 			<div id="id_promotions" class="text hidden">
 				<p><h2>Promotions >></h2></p>
 				<p>No promotion at this time. Please check back later. </p>
+				<p>*----*----*----*----*----*----*----*----*----*----*</p>
+				<div class="mailing-form">
+					<p>Join our promotion mailing list to get the latest construction supply deals!</p>
+					<form id="mailing-form" action="" method="POST">
+						<input type="text" id="mailing_email" class="required" style="width:300px" autocomplete="off">
+						<div class="action">
+							<input type="submit" value="Submit Form">
+							<input type="reset" value="Clear Form">
+						</div>
+					</form>
+				</div>
 			</div>
 			<div id="id_aboutus" class="text hidden">
 				<p><h2>About Us >></h2></p>
@@ -123,7 +134,7 @@
 							<tr>
 								<td>Email: *</td>
 								<td><input type="text" id="email" class=
-									"required"style="width:200px"></td>
+									"required" style="width:200px"></td>
 							</tr>
 							<tr>
 								<td>Inquiry Type:</td>

@@ -15,14 +15,14 @@ if ($_POST) {
 	</html>
 	';
 	
-	$to = 'hwu1986@gmail.com';
+	$to = 'swu@sanfa.bz, hwu@sanfa.bz, awu@sanfa.bz';
 	$subject = 'New Inquiry from San-Fa Website';
 	$message = $email_content;
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 	// Additional headers
-	$headers .= 'To: Steve <hwu1986@gmail.com>' . "\r\n";
+	$headers .= 'To: Steve Wu<swu@sanfa.bz>, Henry Wu<hwu@sanfa.bz>, Anny Wu<awu@sanfa.bz>' . "\r\n";
 	$headers .= 'From: San-Fa Web <noreply@sanfa.bz>' . "\r\n";
 	
 	if (mail($to, $subject, $message, $headers)) {

@@ -99,7 +99,8 @@
 			<div id="id_promotions" class="text hidden">
 				<p><h2>Promotions >></h2></p>
 				<p>No promotion at this time. Please check back later. </p>
-				<p>*----*----*----*----*----*----*----*----*----*----*</p>
+				<br>
+				<p>*-------------------------Mailing List Subscription-------------------------*</p>
 				<div class="mailing-form">
 					<p>Join our promotion mailing list to get the latest construction supply deals!</p>
 					<form id="mailing-form" action="" method="POST">
@@ -175,7 +176,7 @@
 	
 	<div class="footer center">
 		<center>Copyright © 2012 San-Fa Inc. All rights reserved.<br>
-		Written by: <a href="http://www.exdreamstudio.com">eXDream Inc</a>.</center>
+		Written by: <a href="https://twitter.com/#!/HsienTsung_Wu">@HsienTsung_Wu</a>.</center>
 	</div>
 </body>
 </html>

@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 	$('#mailing-form').submit(function(e) {
 		e.preventDefault();
-		var errors = validateMailingForm();
+		var errors = false;
 
 		if (!errors) {
 			$('#id_promotions').fadeOut();
@@ -51,7 +51,7 @@ $(document).ready(function() {
 				success: function(data) {
 
 					$('#loading').hide(3000);
-					$('#id_promotions').append('<center><div id="contact-message"><h3>We have received your information and we will contact you shortly.</h3></div></center>');
+					$('#id_promotions').append('<center><div id="contact-message"><h3>Email Subscribed.</h3></div></center>');
 					$('#id_promotions').fadeIn(3000);	
 				}
 			});
@@ -112,17 +112,5 @@ $(document).ready(function() {
 		}
 
 		return error;
-	}
-
-	function validateMailingForm () {
-		var error = false;
-		var errorMsg = '';
-		$('.required').each(function () {
-			if ($(this).val() == '') {
-				error = true;
-				errorMsg += '<li>' + $(this).attr('id') + ' is blank.</li>';
-			}
-		});
-
 	}
 });

@@ -2,7 +2,8 @@
 
 body {
 	font-family: Verdana;
-	font-size: 13px;	
+	font-size: 13px;
+	background-image: url("http://www.sanfa.bz/images/sanfa_bg.png");	
 }
 
 .border {

@@ -16,7 +16,7 @@
 	
 	<!-- Logo Placeholder -->
 	<div class="header">
-		<img id="logo" class="center" src="images/sanfa_logo.jpg" height="200px" width="400px"/>
+		<img id="logo" class="center" src="images/sanfa_logo.png" height="200px" width="400px"/>
 	</div>
 	
 	<!-- Navigation Placeholder -->

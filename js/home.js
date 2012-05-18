@@ -1,8 +1,10 @@
 $(document).ready(function() {
 	
+	init();
+	
 	$('#contact-form').submit(function(e){
 		e.preventDefault();
-		var errors = validateContactForm();
+		var errors = false;
 
 		if (!errors) {
 			$('#id_contactus').fadeOut();
@@ -23,7 +25,7 @@ $(document).ready(function() {
 				success: function(data) {
 					$('#id_contactus').text('');
 					$('#loading').hide(3000);
-					$('#id_contactus').append('<center><div id="contact-message"><h3>We have received your information and we will contact you shortly.</h3></div></center>');
+					$('#id_contactus').append('<center><div id="form-message"><h3>We have received your information and we will contact you shortly.</h3></div></center>');
 					$('#id_contactus').fadeIn(3000);	
 				}
 			});
@@ -41,7 +43,7 @@ $(document).ready(function() {
 			var email = $('#mailing_email').val();
 			var action = 'subscribe';
 
-			var postString = 'email='+email+'action='+action;
+			var postString = 'email='+email+'&action='+action;
 
 			$.ajax({
 				type: "POST",
@@ -49,37 +51,41 @@ $(document).ready(function() {
 				data: postString,
 				dataType: "JSON",
 				success: function(data) {
-
+					$('#id_promotions').text('');
 					$('#loading').hide(3000);
-					$('#id_promotions').append('<center><div id="contact-message"><h3>Email Subscribed.</h3></div></center>');
+					$('#id_promotions').append('<center><div id="form-message"><h3>Email Subscribed.</h3></div></center>');
 					$('#id_promotions').fadeIn(3000);	
 				}
 			});
 		}
 	});
 	
-	$('#home').bind('click', function() {
-		showContent($(this));
-	});
+	/*
+	 * Initialization
+	 */
+	function init() {
+		
+		bindMenuClick();
+		$('a.lightbox').lightBox(); // Select all links with lightbox class
+		
+	}
 	
-	$('#products').bind('click', function() {
-		showContent($(this));
-	});
+	/*
+	 * Bind Menu Clicks 
+	 */
+	function bindMenuClick() {
+		
+		$('#home').bind('click', function() { showContent($(this));});
+		$('#products').bind('click', function() { showContent($(this));});
+		$('#promotions').bind('click', function() { showContent($(this));});
+		$('#aboutus').bind('click', function() { showContent($(this));});
+		$('#contactus').bind('click', function() { showContent($(this));});
+		
+	}
 	
-	$('#promotions').bind('click', function() {
-		showContent($(this));
-	});
-	
-	$('#aboutus').bind('click', function() {
-		showContent($(this));
-	});
-	
-	$('#contactus').bind('click', function() {
-		showContent($(this));
-	});
-	
-	$('a.lightbox').lightBox(); // Select all links with lightbox class
-	
+	/*
+	 * Display correct content base on the click
+	 */
 	function showContent(item) {
 		
 		var id = item.attr('id');
@@ -89,16 +95,20 @@ $(document).ready(function() {
 		$('#id_aboutus').hide();
 		$('#id_contactus').hide();
 		$('#id_'+id).fadeIn(500);
+		
 	}
 
-	function validateContactForm() {
-
-		$('#contact-error').remove();
-		$('#contact-message').remove();
-
+	/*
+	 * Validation of the form
+	 */
+	function validateForm(form) {
+		
 		var error = false;
 		var errorMsg = '';
-		$('.required').each(function () {
+		
+		$('#form-message').remove();
+		
+		$('#'+form+' .required').each(function () {
 			if ($(this).val() == '') {
 				error = true;
 				errorMsg += '<li>' + $(this).attr('id') + ' is blank.</li>';
@@ -107,8 +117,8 @@ $(document).ready(function() {
 
 		if (error) {
 			$('#loading').hide(3000);
-			$('#id_contactus').prepend('<div id="contact-error"><p>Please complete the following:</p><ul>' + errorMsg + '</ul></div>');
-			$('#id_contactus').fadeIn(3000);
+			$('#'+form).parent().prepend('<div id="form-message"><p>Please complete the following:</p><ul>' + errorMsg + '</ul></div>');
+			$('#'+form).parent().fadeIn(3000);
 		}
 
 		return error;

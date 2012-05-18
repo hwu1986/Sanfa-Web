@@ -37,7 +37,10 @@
 		<div class="border main-content">
 			<div id="id_home" class="text">
 				<p><h2>Home >> </h2></p>
-				
+				<div class="home center">
+					<p><center><h3>Welcome to San Fa Construction Supply</h3></center></p>
+					<img src="images/sanfa_home.jpg" class="center" style=" height:360px; width:480px;" />
+				</div>
 			</div>
 			<div id="id_products" class="text hidden">
 				<p><h2>Products >></h2></p>
@@ -99,8 +102,7 @@
 			<div id="id_promotions" class="text hidden">
 				<p><h2>Promotions >></h2></p>
 				<p>No promotion at this time. Please check back later. </p>
-				<br>
-				<p>*-------------------------Mailing List Subscription-------------------------*</p>
+				<p><h3>Mailing List Subscription</h3></p>
 				<div class="mailing-form">
 					<p>Join our promotion mailing list to get the latest construction supply deals!</p>
 					<form id="mailing-form" action="" method="POST">
@@ -128,12 +130,12 @@
 					
 						<table id="form-table" class="center">
 							<tr>
-								<td>Name/Company: *</td>
+								<td>Name/Company:</td>
 								<td><input type="text" id="name" class=
 									"required" style="width:200px;"></td>
 							</tr>
 							<tr>
-								<td>Email: *</td>
+								<td>Email:</td>
 								<td><input type="text" id="email" class=
 									"required" style="width:200px"></td>
 							</tr>
@@ -147,7 +149,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td style="vertical-align: text-top;">Comments: *</td>
+								<td style="vertical-align: text-top;">Comments:</td>
 								<td><textarea id="comment" class="required"></textarea></td>
 							</tr>
 							<tr>

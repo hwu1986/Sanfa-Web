@@ -37,6 +37,13 @@
 				<p><h2>Home >> </h2></p>
 				<div class="home center">
 					<p><center><h3>Welcome to San Fa Construction Supply</h3></center></p>
+					<div class="home center">
+						<center>
+							<h3>Like Us</h3>
+							<a href="https://www.facebook.com/sanfa.construction"><img src="/images/facebook_icon.png" style="width:50px; height:50px" /></a>
+							<a href="https://plus.google.com/b/105655334041877249216/"><img src="/images/google_icon.png" style="width:50px; height:50px" /></a>
+						</center>
+					</div>
 					<img src="images/sanfa_home.jpg" class="center" style=" height:360px; width:480px;" />
 				</div>
 			</div>

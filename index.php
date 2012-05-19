@@ -1,6 +1,4 @@
-<?php
 
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
@@ -144,6 +142,8 @@
 								<td><select id="type">
 										<option value="Contruction Materials">Contruction Materials</option>
 										<option value="Curtain Doors">Curtain Doors</option>
+										<option value="Construction Consultation">Curtain Doors</option>
+										<option value="Construction Plan">Curtain Doors</option>
 										<option value="Others">Others</option>
 									</select>
 								</td>
@@ -178,7 +178,19 @@
 	
 	<div class="footer center">
 		<center>Copyright © 2012 San-Fa Inc. All rights reserved.<br>
-		Written by: <a href="https://twitter.com/#!/HsienTsung_Wu">@HsienTsung_Wu</a>.</center>
+		Powered by: <a href="https://twitter.com/#!/HsienTsung_Wu">@HsienTsung_Wu</a>.</center>
 	</div>
 </body>
 </html>
+
+<?php
+if ($_GET['sc']) {
+	?>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#contactus').trigger('click');
+	});
+	</script>
+	<?php
+}
+?>

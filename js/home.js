@@ -65,7 +65,7 @@ $(document).ready(function() {
 	 */
 	function init() {
 		
-		bindMenuClick();
+		//bindMenuClick();
 		$('a.lightbox').lightBox(); // Select all links with lightbox class
 		
 	}

@@ -61,7 +61,7 @@
 									<ul>
 										<li>Location searching</li>
 										<li>Estimations</li>
-										<li>Layout Planning</li>s
+										<li>Layout Plannings</li>
 									</ul>
 								</div>	
 							</td>

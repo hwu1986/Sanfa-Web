@@ -8,7 +8,26 @@
 
 <url>
   <loc>http://www.sanfa.bz/</loc>
-  <lastmod>2012-05-19T18:04:40+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.sanfa.bz/index.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.sanfa.bz/products.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.sanfa.bz/promotions.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.sanfa.bz/aboutus.php</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.sanfa.bz/contactus.php</loc>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>

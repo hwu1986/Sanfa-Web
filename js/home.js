@@ -1,7 +1,5 @@
 $(document).ready(function() {
 	
-	init();
-	
 	$('#contact-form').submit(function(e){
 		e.preventDefault();
 		var errors = false;

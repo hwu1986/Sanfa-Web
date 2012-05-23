@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-	<title>San Fa Construction Supply</title>
+	<title>San Fa Construction Supply | Promotions</title>
 	<!-- Javascripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 	<script src="js/jquery.js" type="text/javascript"></script>
@@ -45,9 +45,9 @@
 	<link href="css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css">
 
 	<!-- Metadata -->
-	<meta name="description" content="Sanfa Construction Supply is located in Corozal, Belize. We specialize in construction materials such as cements, steels, hardwares, tools, and many more." />
+	<meta name="description" content="Signup with our mailing list to get exclusion promotions from SanFa Construciton Supply." />
 	<meta name="keywords" content="Belize, Construction Supply Belize, Construction Supply Corozal, Home Improvement Belize, Home Building Belize, Corozal Town, Belize Maya Cement, Belize Steels, Belize Construction, Corozal, Corozal Belize C.A" />
-	<meta name="author" content="HsienTsung Wu" />
+	<meta name="author" content="SanFa Construction Supply" />
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 </head>
 <body class="center">

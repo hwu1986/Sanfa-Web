@@ -11,7 +11,7 @@
 	<!-- Metadata -->
 	<meta name="description" content="SanFa Construction Supply is a local own family business located in Corozal Town, Belize. We're aiming to serve the people with more options and better prices in town." />
 	<meta name="keywords" content="Belize, Construction Supply Belize, Construction Supply Corozal, Home Improvement Belize, Home Building Belize, Corozal Town, Belize Maya Cement, Belize Steels, Belize Construction, Corozal, Corozal Belize C.A" />
-	<meta name="author" content="HsienTsung Wu" />
+	<meta name="author" content="SanFa Construction Supply" />
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 </head>
 <body class="center">

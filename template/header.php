@@ -10,9 +10,13 @@
 	<script src="js/jquery.lightbox-0.5.js" type="text/javascript"></script>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css">
+	<meta name="description" content="Sanfa Construction Supply is located in Coroza, Belize. We specialize in construction materials such as cements, steels, hardwares, tools, and many more." />
+	<meta name="keywords" content="Belize, Construction Supply Belize, Construction Supply Corozal, Home Improvement Belize, Home Building Belize, Corozal Town, Belize Maya Cement, Belize Steels, Belize Construction" />
+	<meta name="author" content="HsienTsung Wu" />
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 </head>
 <body class="center">
-	
+	<?php include_once("analyticstracking.php") ?>
 	<!-- Logo Placeholder -->
 	<div class="header">
 		<img id="logo" class="center" src="images/sanfa_logo.png" height="200px" width="400px"/>

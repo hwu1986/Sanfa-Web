@@ -1,7 +1,7 @@
 <!-- This is where the Header starts -->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="en">
 <head>
 	<title>San Fa Construction Supply | Home</title>
 	<!-- Stylesheets -->
@@ -9,15 +9,17 @@
 
 	<!-- Metadata -->
 	<meta name="description" content="Sanfa Construction Supply is located in Corozal, Belize. We specialize in construction materials such as cements, steels, hardwares, tools, and many more." />
-	<meta name="keywords" content="Belize, Construction Supply Belize, Construction Supply Corozal, Home Improvement Belize, Home Building Belize, Corozal Town, Belize Maya Cement, Belize Steels, Belize Construction, Corozal, Corozal Belize C.A" />
+	<meta name="keywords" content="Belize, Construction Supply Belize, Construction Supply Corozal, Home Improvement Belize, Home Building Belize, Belize Maya Cement, Belize Steels, Belize Construction,Corozal Belize C.A" />
 	<meta name="author" content="SanFa Construction Supply" />
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta http-equiv="content-language" content="en-US" />
+	<link rel="canonical" href="http://www.sanfa.bz?date=053012" />
 </head>
 <body class="center">
 	<?php include_once("js/analyticstracking.php") ?>
 	<!-- Logo Placeholder -->
 	<div class="header">
-		<img id="logo" class="center" src="images/sanfa_logo.png" height="200px" width="400px"/>
+		<img id="logo" class="center" src="images/sanfa_logo.png" height="200px" width="400px" alt="SANFA"/>
 	</div>
 	
 	<?php include "template/nav.php"; ?>
@@ -35,8 +37,8 @@
 							<td valign="top" style="width:150px">
 								<div class="social">	
 									<h3>Follow Us on</h3>
-									<a href="https://www.facebook.com/sanfa.construction"><img src="/images/facebook_icon.png" style="width:50px; height:50px" /></a>
-									<a href="https://plus.google.com/b/105655334041877249216/"><img src="/images/google_icon.png" style="width:50px; height:50px" /></a>
+									<a href="https://www.facebook.com/sanfa.construction"><img src="/images/facebook_icon.png" style="width:50px; height:50px" alt="FB" /></a>
+									<a href="https://plus.google.com/b/105655334041877249216/"><img src="/images/google_icon.png" style="width:50px; height:50px" alt="G+"/></a>
 								</div>
 								<div class="address">
 									<h3>Contact Us</h3>
